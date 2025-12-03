@@ -1,5 +1,6 @@
 
-🛍️ Customer Sales Analytics Pipeline
+🛍️ Customer Sales Analytics Pipeline:-
+
 A modular, production-grade data pipeline for ingesting, transforming, and analyzing customer sales data using Python and Apache Airflow. 
 This project demonstrates real-world ETL/ELT workflows with dimensional modeling, fact aggregation, data validation, and orchestration.
 That's a great idea! A well-structured README.md file is crucial for a professional GitHub repository.
@@ -12,7 +13,8 @@ Airflow Orchestration: Managed through a central DAG definition.
 Dimensional Modeling: Implementation of Star Schema with dedicated Dimension and Fact tables.
 
 Data Quality Gates: Includes a dedicated step for data validation to ensure high data integrity.
-project structure
+
+project structure:-
 customer-sales-analytics/
 ├── Dimensions/
 │   ├── AirflowDAG_ETL.py
@@ -42,7 +44,7 @@ customer-sales-analytics/
 ├── test.py
 └── customersalesanalytics.iml
 
-📝 ETL Pipeline Overview
+📝 ETL Pipeline Overview:-
 The pipeline executes tasks in the following sequence, managed by the Airflow DAG:
 
 Ingestion: Raw data is extracted from sources and loaded into a staging area.
